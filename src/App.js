@@ -8,7 +8,6 @@ import Header from './components/Header';
 import Information from './components/Information';
 
 const AppWrapper = styled.div`
-	border: 1px solid black;
 	display: flex;
 	max-width: 1440px;
 	margin: 0 auto;

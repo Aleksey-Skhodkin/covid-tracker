@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import covidLogo from './../images/covid-logo.png';
+import virusImg from './../images/virus.png';
 import styled from 'styled-components';
 import { useDispatch, useSelector } from 'react-redux';
 import { getDataForAllCountries, getDataForSpecificCountry, getGlobalData, setSelectedCountry } from '../store/covid-tracker-reducer';
@@ -60,6 +61,7 @@ export default function Header() {
 			<div className='logo'>
 				<img src={covidLogo} alt="covid-virus-img" />
 				<h1>Tracker</h1>
+				<img src={virusImg} alt="virus-img" />
 			</div>
 			<form className='form'>
 				<select
