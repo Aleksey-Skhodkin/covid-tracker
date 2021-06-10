@@ -10,6 +10,7 @@
     "axios": "^0.21.1",
     "chart.js": "^3.2.1",
     "chartjs-adapter-moment": "^1.0.0",
+    "firebase-tools": "^9.11.0",
     "leaflet": "^1.7.1",
     "moment": "^2.29.1",
     "numeral": "^2.0.6",
